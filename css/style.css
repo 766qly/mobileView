@@ -89,6 +89,15 @@ footer p{
 }
 
 @media screen and (max-width: 800px) {
+    .nav_bar ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .nav_bar ul li{
+        width: 100%;
+    }
     .home{
         display: grid;
         row-gap: 30px;
