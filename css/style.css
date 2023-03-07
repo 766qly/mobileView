@@ -3,6 +3,22 @@ nav ul{
     width: 100%;
 }
 
+
+a.skip{
+    background: white;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: left 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    left: -300px;
+    top: -100px;
+}
+
+body{
+    margin: 8px;
+}
+
 nav ul li{
     /* Set display, margin, padding, font-size, background-color */
     display: inline-block;
