@@ -104,89 +104,88 @@ footer p{
     font-size: 20px;
 }
 
-@media screen and (max-width: 800px) {
-    .nav_bar ul{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+.nav_bar ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
-    .nav_bar ul li{
-        width: 100%;
-    }
-    .home{
-        display: grid;
-        row-gap: 30px;
-        border: none;
-        grid-template-columns: 1fr;
-        justify-content: space-between;
-        margin-left: auto;
-        margin-right: auto;
-        width: 97.5%;
-    }
-    .home div{
-        border: none; 
-        color:#000000;
-        background-color: #ffffff;
-        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
-    }
-    .container{
-        /*Set width, margin, border properties, background color, and grid properties */
-        display: grid;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 20px;
-        justify-content: space-between;
-        grid-template-columns: 1fr;
-        row-gap: 30px;
-        border: none;
-    }
+.nav_bar ul li{
+    width: 100%;
+}
+.home{
+    display: grid;
+    row-gap: 30px;
+    border: none;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97.5%;
+}
+.home div{
+    border: none; 
+    color:#000000;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.container{
+    /*Set width, margin, border properties, background color, and grid properties */
+    display: grid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    border: none;
+}
 
-    .container div{
-        /* Set border properties, padding, and background color */
-        border: black 10px;
-        border-style:  dashed double none;
-        padding: 5px;
-        color:#000000;
-        background-color: #add8e6;
-        box-shadow: -8px 0 8px 0 #a9a9a9, 8px 0 8px 0 #a9a9a9;
-    }
+.container div{
+    /* Set border properties, padding, and background color */
+    border: black 10px;
+    border-style:  dashed double none;
+    padding: 5px;
+    color:#000000;
+    background-color: #add8e6;
+    box-shadow: -8px 0 8px 0 #a9a9a9, 8px 0 8px 0 #a9a9a9;
+}
 
-    .container img{
-        /* Set width, margin, and display */
-        padding: 0;
-        border: none;
-        width: 100%;
-        margin: auto;
-    }
-    
-    dl{
-        margin-bottom: 25px;
-        border: black 3px;
-        border-style: dashed solid;
-    
-    }
+.container img{
+    /* Set width, margin, and display */
+    padding: 0;
+    border: none;
+    width: 100%;
+    margin: auto;
+}
 
-    dt{
-        padding-left: 10px;
-        font-size: 30px;
-        font-family: "Raleway", 'Times New Roman', Times, serif;
-    }
+dl{
+    margin-bottom: 25px;
+    border: black 3px;
+    border-style: dashed solid;
 
-    dd{
-        margin: 10px;
-        border: none; 
-        padding: 5px;
-        color:#000000;
-        background-color: #ffffff;
-        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
-    }
+}
 
-    dd p{
-        font-family: "Raleway", 'Times New Roman', Times, serif;
-    }
-  }
+dt{
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: "Raleway", 'Times New Roman', Times, serif;
+}
+
+dd{
+    margin: 10px;
+    border: none; 
+    padding: 5px;
+    color:#000000;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+dd p{
+    font-family: "Raleway", 'Times New Roman', Times, serif;
+}
+
 
 @media screen and (prefers-reduced-motion: reduce){
     /*Turn off scroll*/
